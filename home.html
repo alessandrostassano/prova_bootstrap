@@ -11,22 +11,34 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark"> <!--In questo caso abbiamo, con questi comandi, cambiato il colore alla barra di navigazione-->
-    <div class="container">
-        <ul class="navbar-nav"> <!--per centrare il menù di navigazioni sia allineato alla prima lettere del contenuto, mna voglio anche si prenda tutto lo spazio: creo un div container, ogni volta che voglio che qualcosa si comporti come il testo, aggiungo il div container, taglio l'UL e lo inserisco al suo interno-->
-        <li class="class nav-bar">
-            <a href="#" class="nav-link active"> home </a>
-        </li>
-        <li class="class nav-bar">
-            <a href="#" class="nav-link"> prodotti </a>
-        </li>
-    </ul></div>
-        
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!--In questo caso abbiamo, con questi comandi, cambiato il colore alla barra di navigazione-->
+        <div class="container">
+            <ul class="navbar-nav">
+                <a href="home.html" class="navbar-brand">
+                    <img style="width: 32px;"
+                        src="https://www.sceltaresponsabile.it/images/articles/205-205-mela-rossa.jpg">
+
+
+                </a>
+                <!--per centrare il menù di navigazioni sia allineato alla prima lettere del contenuto, mna voglio anche si prenda tutto lo spazio: creo un div container, ogni volta che voglio che qualcosa si comporti come il testo, aggiungo il div container, taglio l'UL e lo inserisco al suo interno-->
+                <li class="class nav-bar">
+                    <a href="./home.html" class="nav-link active"> home </a>
+                    <!--l'unica cosa che cambia è una: entrambe le pagine si colleganbo tra di loro (prodotti e menù) ma nella specifica pagina di html nel collegamento href metto "active"-->
+                </li>
+                <li class="class nav-bar">
+                    <a href="./prodotti.html" class="nav-link"> prodotti </a>
+                    <!--nella li class della seconda voce di menù linko la pagina html che voglio aprire-->
+                </li>
+            </ul>
+        </div>
+
     </nav>
 
     <div class="container">
         <h1>Home</h1>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolor harum expedita, reiciendis minima excepturi odit qui temporibus natus esse placeat necessitatibus nemo illo iure beatae distinctio nulla vero animi?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolor harum expedita, reiciendis minima excepturi
+        odit qui temporibus natus esse placeat necessitatibus nemo illo iure beatae distinctio nulla vero animi?
 
 
     </div>
